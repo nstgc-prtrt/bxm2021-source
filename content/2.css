@@ -1,0 +1,343 @@
+#bg-2 {
+    background-color: lightskyblue;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+#bg-2-L {
+    background-color: #e8deb7;
+    width: 60%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+#bg-border-2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: white 1.5em solid;
+    border-radius: 4em;
+    outline: white 5em solid;
+    outline-offset: -1.5em;
+    pointer-events: none;
+}
+
+#looper-2 {
+    position: absolute;
+    top: 0;
+    left: 60%;
+    transform: scaleX(2);
+}
+
+#looper-2 > svg {
+    display: inline;
+    height: 200vh;
+}
+
+@keyframes oscillate-2 {
+    0%      {padding-left: 0;  }
+    50%     {padding-left: 5em;}
+    100%    {padding-left: 0;  }
+}
+
+#tn-2-1 {
+    margin-left: 5em;
+    transform: rotateZ(10deg);
+    margin-top: -3em;
+}
+
+#tn-2-1 img {
+    animation-delay: 1s;
+}
+
+#tn-2-2 {
+    margin-left: 3em;
+    transform: rotateZ(-10deg);
+    margin-top: -3em;
+}
+
+#tn-2-2 img {
+    animation-delay: 5s;
+}
+
+#tn-2-3 {
+    margin-left: 10em;
+    transform: rotateZ(5deg);
+    margin-top: -5em;
+}
+
+#tn-2-3 img {
+    animation-delay: 2s;
+}
+
+#tn-2-4 {
+    margin-left: 5em;
+    transform: rotateZ(-5deg);
+    margin-top: -3em;
+}
+
+#tn-2-4 img {
+    animation-delay: 6s;
+}
+
+#tn-2-5 {
+    margin-left: 3em;
+    transform: rotateZ(15deg);
+    margin-top: -3em;
+}
+
+#tn-2-5 img {
+    animation-delay: 0s;
+}
+
+#tn-container {
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 69vw;
+}
+
+#tn-container img {
+    width: 40vh;
+    animation-name: oscillate-2;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.3, 0, .3, 1);
+    transition: filter .08s;
+}
+
+#tn-container img:not(.tn-shadow):hover {
+    filter: brightness(1.3);
+}
+
+#tn-container img:not(.tn-shadow):active {
+    filter: brightness(.7);
+}
+
+.tn-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.tn-shadow {
+    filter: brightness(0) blur(1em);
+    position: absolute;
+    left: 0;
+    top: 0;
+    mix-blend-mode: lighten;
+    opacity: .7;
+    pointer-events: none;
+}
+
+#vid-title-2 {
+    margin-left: 7vw;
+    margin-top: 70vh;
+    font-size: 6em;
+    font-family: "Noto Sans SC";
+    font-weight: 900;
+    color: darkslateblue;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+}
+
+#auth-title-2 {
+    margin-left: 7vw;
+    margin-top: calc(74vh + 3em);
+    font-size: 2em;
+    font-family: "Noto Sans SC";
+    padding-right: 40vw;
+    pointer-events: none;
+    color: darkslateblue;
+    top: 0;
+    left: 0;
+}
+
+#track-title-2 {
+    margin-left: 8vw;
+    margin-top: 68vh;
+    font-size: 6.5em;
+    font-family: "Noto Sans SC";
+    color: transparent;
+    -webkit-text-stroke: 5px white;
+    mix-blend-mode: screen;
+    pointer-events: none;
+    opacity: .8;
+    top: 0;
+    left: 0;
+}
+
+#text-2 {
+    left: 10em;
+    top: 10em;
+    position: absolute;
+    width: 55vw;
+    height: 58vh;
+    line-height: 3em;
+    padding-right: 1em;
+}
+
+#text-2 > p {
+    color: black;
+    font-size: 1.7em;
+    font-family: 'Noto Sans SC';
+    opacity: 0;
+    visibility: collapse;
+    position: absolute;
+    transition: opacity .1s, visibility .1s;
+    overflow-y: auto;
+    height: 40vh;
+    padding-right: 1em;
+    scrollbar-color: darksalmon azure;
+    scrollbar-width: thin;
+}
+
+#text-2 > p::-webkit-scrollbar {
+    width: .4rem;
+}
+
+#text-2 > p::-webkit-scrollbar-thumb {
+    background-color: darksalmon;
+}
+
+#text-2 > p::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(175, 97, 71);
+}
+
+#text-2 > p::-webkit-scrollbar-thumb:active {
+    background-color: rgb(117, 57, 37);
+}
+
+#text-2 > p::-webkit-scrollbar-track {
+    background-color: azure;
+}
+
+.visible-text-2 {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+#text-2-radio-container {
+    position: relative;
+    top: 5em;
+    left: 9em;
+    display: flex;
+    flex-direction: row;
+    width: 65vw;
+}
+
+#text-2-radio-container input {
+    visibility: collapse;
+    display: none;
+}
+
+#text-2-radio-container input:checked + label {
+    background-color: darkslateblue;
+    pointer-events: none;
+    color: white;
+}
+
+#text-2-radio-container label {
+    background-color: transparent;
+    color: darkslateblue;
+    margin-right: 1em;
+    font-size: 2vw;
+    user-select: none;
+    cursor: pointer;
+    transition: color .1s, background-color .1s;
+    border: 1px darkslateblue solid;
+    padding: 0 0 .1em .5em;
+    font-family: 'Noto Sans SC';
+    font-weight: 100;
+}
+
+#text-2-radio-container label:hover {
+    background-color: white;
+    color: darkslateblue;
+}
+
+#text-2-radio-container label:active {
+    background-color: rgb(32, 26, 71);
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+	#bg-border-2 {
+        border: white 1em solid;
+        border-radius: 2em;
+        outline: white 5em solid;
+        outline-offset: -1em;
+    }
+    #vid-title-2 {
+        font-size: 1.5em;
+        margin-top: 55vh;
+    }
+    #auth-title-2, #track-title-2 {
+        display: none;
+    }
+    #tn-container {
+        flex-direction: row;
+        margin-left: 0;
+        margin-top: 50vh;
+        overflow-x: scroll;
+        padding-left: 2em;
+        background-color: rgba(255,255,255,.8);
+        /* display: none; */
+    }
+    #tn-container::before {
+        position: absolute;
+        width: 100%;
+        height: 25vh;
+        content: '';
+        left: 0;
+        background-image: repeating-linear-gradient(20deg, transparent 0%, transparent 3%, white 3%, white 6%, transparent 6%);
+        padding-bottom: 2em;
+        top: 55vh;
+    }
+    #tn-container a {
+        transform: rotateZ(0);
+        margin-top: 0;
+        margin-left: 0;
+        padding-right: 5em;
+        width: 32.5vh;
+    }  
+    #tn-container img {
+        animation-name: none;
+    }
+    #tn-container > a::after {
+        content: attr(title);
+        width: 32.5vh;
+        background: white;
+        position: relative;
+        color: black;
+        font-family: 'Noto Sans SC';
+        text-decoration: none;
+        font-size: 1.5em;
+        display: inline-block;
+    }
+    #text-2 {
+        left: 2.5em;
+        top: 5em;
+        width: 85vw;
+        height: 80vh;
+    }
+    #text-2-radio-container {
+        top: 1.5em;
+        left: 14em;
+        flex-wrap: wrap;
+        width: 50vw;
+    }
+    #text-2-radio-container label {
+        font-size: 1em;
+    }
+}

@@ -1,0 +1,62 @@
+<div id="bg-1"></div>
+<div class="floater">
+	<img data-xoff="30" data-yoff="5" id="bg-r-1" src="assets/BG_R.png">
+	<img data-xoff="0" data-yoff="0" id="boat-1" src="assets/boats/1.png">
+	<svg width="350" height="50" data-xoff="250" data-yoff="5" style="
+																		position: absolute;
+																		margin-left: 80vw;
+																		margin-top: 20vh;
+																		">
+		<defs>
+    	  <pattern id="Pattern2-1" x="0" y="0" width=".17" height="1">
+    	    <g transform="translate(25 0) rotate(45)">
+    	      <rect width="40" height="5" transform="translate(0 17.5)" fill="#5994d8" fill-opacity="1"></rect>
+    	      <rect width="5" height="40" transform="translate(17.5 0)" fill="#5994d8" fill-opacity="1"></rect>
+    	    </g>
+    	  </pattern>
+		</defs>	
+		<rect width="350" height="150" fill="url(#Pattern2-1)"></rect>
+	</svg>
+</div>
+	<img data-xoff="40" data-yoff="10" src="assets/map.svg" id="bg-map-1">
+<div class="floater">
+	<svg data-xoff="60" data-yoff="15" id="left-curve" x="0px" y="0px" viewBox="0 0 50 200" xml:space="preserve">
+		<style type="text/css">
+			@keyframes path-loop{
+			0% {stroke-dashoffset: 0}
+			100% {stroke-dashoffset: 27}
+			}
+			.st1{fill:none;stroke:#fca8b7;stroke-width:5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:11.872,14.84;animation: path-loop 1s infinite linear reverse;}
+		</style>
+		<g>
+			<path class="st1" d="M23.6-18.3c-10.8,31.3-3.1,75.7,5.9,93.8c11,22,12,42,7,55c-4.8,12.4-24.9,21.1-20.8,102.6"/>
+		</g>
+	</svg>
+	<img data-xoff="100" data-yoff="20" id="chara-1" src="assets/chara_key_2.png">
+	<h1 data-xoff="50" data-yoff="10" id="title-1">
+		海洋之心 ~ 活动主题
+	</h1>
+	<div data-xoff="30" data-yoff="5" id="text-container-1">
+		<h1 id="text-1-1">
+			<li>新思路</li>
+			<li>新想法</li>
+			<li>新技术</li>
+			<br/>
+			用上述在早已<b>老生常谈</b>的曲目上做文章
+		</h1>
+		<blockquote id="text-1-2">
+			<p>
+				我觉得其实不一定刻意新做，比起强行推陈出新更像是历久弥新吧，
+				其实很多曲子都很好听，很有感情，但是却又在某些方面被所谓的“标准格式”限制住了，
+				很多人都按照一套做下来，或者一些想做点有意思的不得不找冷门曲。我就想，能不能反其道而行去思考，去改变呢？
+				其实已经有很多作者都在这方面做出努力了，不过把这个概念具体化貌似还是头一次。
+			</p>
+			———卵总的话
+		</blockquote>
+		<h1 id="text-1-3">
+			如果想不出好主意的话可以试着点一下右上角的灯泡！
+		</h1>
+	</div>
+	<img data-xoff="0" data-yoff="0" id="bulb-1" src="assets/bulb.svg">
+</div>
+<div id="bg-border-1"></div>

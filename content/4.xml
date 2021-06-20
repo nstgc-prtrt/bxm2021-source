@@ -1,0 +1,12 @@
+<div id="bg-4"></div>
+<!-- <div class="floater" id="vid-titles-4"></div> -->
+<h1 id="title-4">
+	蔚蓝的开放日<br/>活动时间
+</h1>
+<canvas id="cvs-4">
+</canvas>
+<h1 id="text-4">
+    活动截止于北京时间8月22日零点
+</h1>
+<h1 id="countdown-4"></h1>
+<div id="bg-border-4"></div>

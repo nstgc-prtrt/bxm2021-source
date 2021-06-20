@@ -1,0 +1,74 @@
+<div id="bg-2"></div>
+<div id="bg-2-L"></div>
+<div id="looper-2">
+	<svg x="0px" y="0px" viewBox="0 0 25 400">
+		<style type="text/css">
+			.st-looper-2{fill:#e8deb7;}
+		</style>
+		<path class="st-looper-2" d="M21.6,399.9h-19c0,0-1.5-10.1-1-22.5c0.5-12.6,2-28.1,2-37c0-17.5-1-40.5-1-40.5s-1.5-10.1-1-22.5
+			c0.5-12.6,2-28.1,2-37c0-17.5-1-40.5-1-40.5s-1.5-10.1-1-22.5c0.5-12.6,2-28.1,2-37c0-17.5-1-40.5-1-40.5s-1.5-10.1-1-22.5
+			c0.5-12.6,2-28.1,2-37c0-17.5-1-40.5-1-40.5h19c0,0-2,14-2,33c0,13.9,3,24,3,44.5c0,16-1,22.5-1,22.5s-2,14-2,33c0,13.9,3,24,3,44.5
+			c0,16-1,22.5-1,22.5s-2,14-2,33c0,13.9,3,24,3,44.5c0,16-1,22.5-1,22.5s-2,14-2,33c0,13.9,3,24,3,44.5
+			C22.6,393.4,21.6,399.9,21.6,399.9z"/>
+		</svg>
+</div>
+<div id="text-2">
+    <p class="visible-text-2">
+    	<b>请用到至少有人做过的老曲目，这个度很宽泛，只要是曲子出现过的作品有一定时间都可以</b>，像宣传图里的<em>てってってー</em>、<em>the castle</em>还有像<em>elektro</em>、<em>bass 2 bass</em>这种已经“被用完”的曲子，或者是<em>樱反射</em>、<em>on and on</em>、<em>ココロオドル</em>这些时常被翻出来的都是可以的。
+		<br/>
+		<br/>
+    	<b>但请不要！</b>虽然曲子很老，但鲜有提及，对于音mad很新 或 最近一段时间才出现的新热潮 拿过来就做！
+    </p>
+    <p>
+    	无论是只有一分钟的娱乐作，还是八九分钟的合作，都可以参加本次活动，<b>但注意最好不要是半成品或者静止画，即使是生草向，也要认真对待自己的作品哦~</b>
+		<br/>
+		另外，不限制参加者投稿数。
+    </p>
+    <p>
+    	最后也是最重要的一点，请一定带上<b>回渡藏宝图</b>这个tag，并在简介里写上 ‘本作品参与了BXM夏季活动企划“回渡藏宝图～retro voyage”’
+		<br/>
+		<br/>
+		不要让自己的结晶付诸东流哦！
+    </p>
+</div>
+<div id="text-2-radio-container">
+	<input type="radio" name="text-p2" id="p2-s1" value="p2-s1" checked>
+	<label for="p2-s1">①「曲目限定」</label>	
+	<input type="radio" name="text-p2" id="p2-s2" value="p2-s2">
+	<label for="p2-s2">②「格式解放」</label>	
+	<input type="radio" name="text-p2" id="p2-s3" value="p2-s3">
+	<label for="p2-s3">③「作品识别」</label>
+</div>
+<div id="tn-container">
+	<a id="tn-2-1" title="KIRALOVANIA" data-author="とそちか" data-track="MEGALOVANIA" href="https://www.bilibili.com/video/BV1wW41187eY" target="_blank" rel="noopener noreferrer">
+		<img src="assets/p2-tn1.jpg" class="tn-shadow">
+		<img src="assets/p2-tn1.jpg">
+		<img class="tn-frame" src="assets/tn_frame.png">
+	</a>
+	<a id="tn-2-2" title="ポルノがまちからやってくるんだ" data-author="youtt6" data-track="イワシがつちからはえてくるんだ" href="https://www.bilibili.com/video/BV1QW411K7xM" target="_blank" rel="noopener noreferrer">	
+		<img src="assets/p2-tn2.jpg" class="tn-shadow">
+		<img src="assets/p2-tn2.jpg">
+		<img class="tn-frame" src="assets/tn_frame.png" style="filter: hue-rotate(270deg);">
+	</a>
+	<a id="tn-2-3" title="骑士之夜" data-author="Arados, Beazty, Chokeslam2, DariusSheeno, Dopi, grunku, instep, lachrymaL, MMaker, naknow" data-track="Night of Nights" href="https://www.bilibili.com/video/BV1Dr4y1N7nh" target="_blank" rel="noopener noreferrer">	
+		<img src="assets/p2-tn3.jpg" class="tn-shadow">
+		<img src="assets/p2-tn3.jpg">
+		<img class="tn-frame" src="assets/tn_frame.png" style="filter: hue-rotate(90deg);">
+	</a>
+	<a id="tn-2-4" title="Death by Jimanbanashi" data-author="わたぴー" data-track="Death by Glamour" href="https://www.bilibili.com/video/BV1PK4y1d7Rh" target="_blank" rel="noopener noreferrer">
+		<img src="assets/p2-tn4.jpg" class="tn-shadow">
+		<img src="assets/p2-tn4.jpg">
+		<img class="tn-frame" src="assets/tn_frame.png" style="filter: hue-rotate(135deg);">
+	</a>
+	<a id="tn-2-5" title="李小龍的截拳道生活" data-author="とそちか" data-track="亀上的竜宮生活" href="https://www.bilibili.com/video/BV1Vx411h7A4" target="_blank" rel="noopener noreferrer">	
+		<img src="assets/p2-tn5.jpg" class="tn-shadow">
+		<img src="assets/p2-tn5.jpg">
+		<img class="tn-frame" src="assets/tn_frame.png" style="filter: hue-rotate(180deg);">
+	</a>
+</div>
+<div class="floater">
+	<h1 data-xoff="50" data-yoff="25" id="track-title-2">航海员的职责 ~ 制作规范</h1>
+	<h1 data-xoff="50" data-yoff="25" id="vid-title-2">航海员的职责 ~ 制作规范</h1>
+	<h1 data-xoff="50" data-yoff="25" id="auth-title-2">✖✖✖</h1>
+</div>
+<div id="bg-border-2"></div>

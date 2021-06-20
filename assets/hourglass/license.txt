@@ -1,0 +1,11 @@
+Model Information:
+* title:	Hourglass
+* source:	https://sketchfab.com/3d-models/hourglass-a453e90d47b74260b5e5ccd5a965fe3e
+* author:	• Less • (https://sketchfab.com/lessart)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Hourglass" (https://sketchfab.com/3d-models/hourglass-a453e90d47b74260b5e5ccd5a965fe3e) by • Less • (https://sketchfab.com/lessart) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

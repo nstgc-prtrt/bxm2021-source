@@ -1,0 +1,61 @@
+<div id="bg-5"></div>
+<svg id="bg-radial-5" viewBox='0 0 100 100'>
+  <circle cx='50' cy='50' r='40' />
+</svg>
+<div id="info-5">
+    <div class="floater">
+        <img data-xoff="50" data-yoff="0" src="assets/crab_5.png">
+    </div>
+    <div class="floater">
+        <h1 data-xoff="100" data-yoff="0" id="title-5">
+        	螃蟹大餐 ~ 奖励部分
+        </h1>
+    </div>
+    <div id="text-5-1">
+    <h1>
+        本次活动没有奖励
+    </h1>
+    <h3>
+        获得那么多人气，证明了自己，不是一件很美好的事吗～
+    </h3>
+    </div>
+    <div id="stage-5">
+        <p>
+            骗你的，
+        <br/>
+        <br/>
+            这次还是老规矩，一共设立了前三名次的奖励，同时还有优秀提名的名额哦
+        <br/>
+        <br/>
+        </p>
+        <h1>
+            第一名： BXM纪念币一枚 + 卡纸签绘 + 1200元 + <b style="color:darkblue;">神秘奖品</b>
+        <br/>
+        </h1>
+        <h2>
+            第二名： BXM纪念币一枚 + 卡纸签绘 + 600元
+        <br/>
+        </h2>
+        <h2>
+            第三名： BXM纪念币一枚 + 卡纸签绘 + 360元
+        <br/>
+        </h2>
+        <p>
+        <br/>
+            赞助是这位
+        </p>
+        <img id="ltx-5" src="assets/ltx_.png">
+        <p>
+        <br/>
+        <br/>
+            不过最宝贵的除了这些物质奖品之外，获得关注，突破自己更是难得可贵的体验哦
+        <br/>
+        </p>
+        <h1>
+            最后公布结果会以直播的形式，不要错过啦！
+        </h1>
+    </div>
+</div>
+
+<div id="bg-border-5">
+</div>

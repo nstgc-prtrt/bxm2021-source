@@ -1,0 +1,123 @@
+#bg-0 {
+    background-color: #46dbe7;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+#bg-border-0 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: white 1.5em solid;
+    border-radius: 4em;
+    outline: white 5em solid;
+    outline-offset: -1.5em;
+}
+
+#logo, #logo-shadow {
+    position: absolute;
+    right: 5vw;
+    top: 11.5%;
+    width: 35em;
+}
+
+#logo-shadow {
+	filter: blur(1em);
+	opacity: .6;
+	visibility: hidden;
+}
+
+#countdown-container {
+    position: absolute;
+    right: calc(5% + 5em);
+    top: 60%;
+}
+
+#countdown {
+    font-size: 10em !important;
+}
+
+#countdown-container > h1 {
+    color: white;
+    display: inline;
+    font-size: 3em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#looper {
+    position: absolute;
+    top: 29%;
+    left: 0;
+    transform: scaleY(.5);
+}
+
+#looper > svg {
+    width: 200vw;
+    display: inline;
+}
+
+@keyframes shine {
+	0%   {filter: grayscale(1) brightness(1)}
+	50%  {filter: grayscale(1) brightness(1.4)}
+	100% {filter: grayscale(1) brightness(1)}
+}
+
+#scroll-anim {
+    width: 12em;
+    position: absolute;
+    right: -8em;
+    cursor: pointer;
+    transition: .25s;
+	animation: shine 1s infinite;
+}
+
+#scroll-anim:hover {
+    filter: grayscale(1) brightness(1.4);
+    transform: rotateZ(35deg);
+	animation: none;
+}
+
+#scroll-anim:active {
+    transition: .08s;
+    filter: grayscale(1) brightness(.6);
+}
+
+@media only screen and (max-width: 768px) {
+    iframe {
+        display: none;
+    }
+    #countdown-container > h1 {
+        text-shadow: 2px 2px 30px black;
+        font-size: 2em;
+    }
+	#logo, #logo-shadow {
+		top: 5%;
+		right: 7vw;
+		width: 10em;
+	}
+	#logo-shadow {
+		visibility: visible;
+	}	
+    #countdown-container {
+		top: 50%;
+	}
+	#scroll-anim {
+		width: 55vw;
+		right: unset;
+		top: 11em;
+		left: -1em;
+	}
+	#bg-border-0 {
+        border: white 1.5em solid;
+        border-radius: 2em;
+        outline: white 5em solid;
+        outline-offset: -1.5em;
+    }
+}
