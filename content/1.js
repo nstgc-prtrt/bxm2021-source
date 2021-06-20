@@ -26,6 +26,8 @@ function bulb_1() {
             <a href="https://www.bilibili.com/video/BV1Lp411Z75h" target="_blank" rel="noopener noreferrer">E-Side of YTPMV</a>
             <br/>
             <a href="https://www.bilibili.com/video/BV1bJ411M728" target="_blank" rel="noopener noreferrer">F-Side of YTPMV</a>
+            <br/>
+            <a href="https://www.bilibili.com/video/BV1os411f7w8" target="_blank" rel="noopener noreferrer">Nico Medley</a>
         `);
     }, false);
 }
